@@ -19,8 +19,8 @@ function checkAnswers(answer) {  // Function names match story scenes. Replace w
     if (answer == "Lie in bed") {
         youShouldGetGoing();
     } 
-    else if (answer == "Open the curtain") {
-        wakeUp();
+    else if (answer == "Lie in bed some more") {
+        youReallyShouldGetUp();
     }
 }
 
@@ -32,13 +32,12 @@ function wakeUp(){  // FIRST STORY SCENE - WELCOMES PLAYER
    answer = setOptions(choices);
  }
  
-/*   
 function youShouldGetGoing() {  // HOW TO SET A SCENE
     story("You lay in bed for a few moments, not much is going on. You will probably be late for school if you don’t get going… ");
     choices = ["Lie in bed some more", "Open the curtain", "Leave your room"];
     answer = setOptions(choices);   
- }
-
+}
+/*
  function youReallyShouldGetUp() {  // HOW TO SET A SCENE
     story("What are you doing? Nevermind, I know EXACTLY what you are doing. And YOU know what you need to do! GET GOING!");
     choices = ["Lie in bed even longer", "Open the curtain", "Leave your room"];
