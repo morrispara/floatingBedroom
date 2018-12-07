@@ -37,8 +37,17 @@ function checkAnswers(answer) {  // Function names match story scenes. Replace w
 	else if (answer == "Jump from your room") {
         splat();
     }
-		else if (answer == "Climb down the chain") {
+	else if (answer == "Climb down the chain") {
         descentFromTheSky();
+    }
+	else if (answer == "Call to the bird, politely") {
+        iLikeYourFeathers();
+    }
+	else if (answer == "Be rude") {
+        heyBirdbrain();
+    }
+	else if (answer == "Ignore it") {
+        ignoreTheBird();
     }
 }
 
@@ -74,7 +83,7 @@ function youShouldGetGoing() {  // HOW TO SET A SCENE
 }
  function openDoor() {  // HOW TO SET A SCENE
     story("Woops! You catch yourself before falling thousands of feet. You look below, and you see a large expanse of land, one you don’t recognize. To your side, you see a fluffy white cloud, and bright blue sky as realize that your bedroom is floating, thousands of feet in the air above a strange landscape. But there is a long, massive chain anchoring it to the ground miles below.  You know you can’t stay up here forever. You have no food (except maybe that HALF-EATEN SANDVICH from last night), and no water. What do you do next?");
-    choices = ["Lie in bed", "Grab the sandvich", "Leave your room",];
+    choices = ["Jump from your room", "Grab the sandvich", "Climb down the chain",];
     answer = setOptions(choices);   
 }
  function grabTheSandvich() {  // HOW TO SET A SCENE
@@ -91,6 +100,21 @@ function youShouldGetGoing() {  // HOW TO SET A SCENE
 }
  function descentFromTheSky() {  // HOW TO SET A SCENE
     story("You decide to climb down the chain. It’s better than staying up here forever, you guess. Link after link, you descend from the sky. As you climb down, you notice some sort of flying machines flying about. Loud, boxy things with plenty of hard edges and propellers. They don’t seem to pay attention to you. One of them, however, catches your eye. A large red, feathered thing flapping around. You think it might be a large bird of some sort. Perhaps it would respond if called to.");
-    choices =["Call to the bird politely","Be rude","Ignore it"];
+    choices =["Call to the bird, politely","Be rude","Ignore it"];
+    answer = setOptions(choices);   
+ }
+function iLikeYourFeathers() {
+	story("You call out to the flappy red thing, screaming past the speeding winds whipping against your face. “EXCUSE ME, GOOD BIRD, DO YOU HAVE A MOMENT?” At first, you don’t think that the bird could hear you. But then, it changes course, and begins flying your direction. It continues over and lands on the chain, maybe two or three links above you. “Hello there, Ooman,” it speaks. “Hello,” you respond. “Sorry to bother you, but I just had to let you know that I really like your feathers.” ADD MORE STORY");
+    choices =["PLACEHOLDER","PLACEHOLDER","PLACEHOLDER"];
+    answer = setOptions(choices);   
+ }
+ function heyBirdbrain() {
+	story("You call out to the flapping red thing, screaming past the speeding winds whipping against your face. “HEY! BIRDBRAIN!” At first, you don’t think that the bird could hear you. But then, it changes course, and begins flying your direction. “SQUACK! WHO DO YOU THINK YOU ARE? WISE GUY, EH? AIN’T NOBODY CALLS ME BIRDBRAIN. NO WAY, NO HOW.” You are pretty sure that you just made it mad. It keeps coming at you.");
+    choices =["PLACEHOLDER","PLACEHOLDER","PLACEHOLDER"];
+    answer = setOptions(choices);   
+ }
+ function ignoreTheBird() {
+	story("You continue down, taking care not to slip and fall to your death. The strange red creature continues doing who-knows-what, not noticing you. ADD MORE STORY");
+    choices =["PLACEHOLDER","PLACEHOLDER","PLACEHOLDER"];
     answer = setOptions(choices);   
  }
