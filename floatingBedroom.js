@@ -105,16 +105,16 @@ function youShouldGetGoing() {  // HOW TO SET A SCENE
  }
 function iLikeYourFeathers() {
 	story("You call out to the flappy red thing, screaming past the speeding winds whipping against your face. “EXCUSE ME, GOOD BIRD, DO YOU HAVE A MOMENT?” At first, you don’t think that the bird could hear you. But then, it changes course, and begins flying your direction. It continues over and lands on the chain, maybe two or three links above you. “Hello there, Ooman,” it speaks. “Hello,” you respond. “Sorry to bother you, but I just had to let you know that I really like your feathers.” ADD MORE STORY");
-    choices =["PLACEHOLDER","PLACEHOLDER","PLACEHOLDER"];
+    choices =["","",""];
     answer = setOptions(choices);   
  }
  function heyBirdbrain() {
 	story("You call out to the flapping red thing, screaming past the speeding winds whipping against your face. “HEY! BIRDBRAIN!” At first, you don’t think that the bird could hear you. But then, it changes course, and begins flying your direction. “SQUACK! WHO DO YOU THINK YOU ARE? WISE GUY, EH? AIN’T NOBODY CALLS ME BIRDBRAIN. NO WAY, NO HOW.” You are pretty sure that you just made it mad. It keeps coming at you.");
-    choices =["PLACEHOLDER","PLACEHOLDER","PLACEHOLDER"];
+    choices =["","",""];
     answer = setOptions(choices);   
  }
  function ignoreTheBird() {
 	story("You continue down, taking care not to slip and fall to your death. The strange red creature continues doing who-knows-what, not noticing you. ADD MORE STORY");
-    choices =["PLACEHOLDER","PLACEHOLDER","PLACEHOLDER"];
+    choices =["","",""];
     answer = setOptions(choices);   
  }
