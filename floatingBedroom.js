@@ -60,7 +60,7 @@ function wakeUp(){  // lv1s1 FIRST STORY SCENE - WELCOMES PLAYER
  }
  
 function youShouldGetGoing() {  // lv1s2 part one of lying down loop
-    story("You lay in bed for a few moments, not much is going on. You will probably be late for school if you don’t get going… ");
+    story("You lie in bed for a few moments, not much is going on. You will probably be late for school if you don’t get going… ");
     choices = ["Lie in bed some more", "Open the curtain", "Leave your room"];
     answer = setOptions(choices);   
 }
@@ -82,7 +82,7 @@ function youShouldGetGoing() {  // lv1s2 part one of lying down loop
     answer = setOptions(choices);   
 }
  function openDoor() {  // lv1s6
-    story("Woops! You catch yourself before falling thousands of feet. You look below, and you see a large expanse of land, one you don’t recognize. To your side, you see a fluffy white cloud, and bright blue sky as realize that your bedroom is floating, thousands of feet in the air above a strange landscape. But there is a long, massive chain anchoring it to the ground miles below.  You know you can’t stay up here forever. You have no food (except maybe that HALF-EATEN SANDVICH from last night), and no water. What do you do next?");
+    story("Woops! You catch yourself before falling thousands of feet. You look below, and you see a large expanse of land, one you don’t recognize. To your side, you see a fluffy white cloud, and bright blue sky as you realize that your bedroom is floating, thousands of feet in the air above a strange landscape. But there is a long, massive chain anchoring it to the ground miles below.  You know you can’t stay up here forever. You have no food (except maybe that HALF-EATEN SANDVICH from last night), and no water. What do you do next?");
     choices = ["Jump from your room", "Grab the sandvich", "Climb down the chain",];
     answer = setOptions(choices);   
 }
